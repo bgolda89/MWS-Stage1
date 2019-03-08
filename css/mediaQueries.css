@@ -1,0 +1,87 @@
+@media screen and (min-width: 700px){
+    a {
+        padding: 0.5em;
+    }    
+    #restaurants-list li {
+        width: 40%;
+    }
+    #restaurants-list li h1 {
+        font-size: 1.4em;
+    }
+    #restaurants-list li a {
+        font-size: 1.0em;
+    }
+    .filter-options select {
+        width: 25%;
+    }
+
+
+    .inside #map-container{
+        width: 100%;
+        height: 300px;
+    }
+    #restaurant-hours, #restaurant-img, #restaurant-cuisine, #restaurant-address, #restaurant-name {
+        width: 50%;
+    }
+    #restaurant-hours, #restaurant-img {
+        height: 70%;
+    }
+    #restaurant-name{
+        order: 2;
+    }
+    #restaurant-cuisine{
+        order: 3;
+    }
+    #restaurant-hours{
+        order: 4;
+    }
+    #restaurant-img{
+        order: 5;
+    }
+    #restaurant-address{
+        order: 6;
+    }
+}
+
+@media screen and (min-width: 800) {
+    /* #restaurant-cuisine {
+        width: 50%;
+    }
+    #restaurant-img {
+        width: 50%;
+    } */
+}
+
+@media screen and (min-width: 1050px){
+    a {
+        padding: 0em;
+    }    
+    #restaurants-list li {
+        width: 27%;
+    }
+    .filter-options select {
+        width: 18%;
+    }
+    .map-restaurant-container{
+        display:flex;
+        flex-wrap: wrap;
+        width: 50%;
+        order: 1;
+    }
+    .review-list-container{
+        display:flex;
+        flex-wrap: wrap;
+        width: 50%;
+        order: 2;
+    }
+    #map-container{
+        width: 100%;
+    }
+    #reviews-container{
+        width: 100%;
+        /* order: 2; */
+    }
+    #restaurant-hours, #restaurant-img, #restaurant-cuisine, #restaurant-address, #restaurant-name {
+        width: 100%;
+    }
+}
